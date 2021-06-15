@@ -1,0 +1,26 @@
+name: pokedex_manha
+description: Pokédex criada para estudos.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^4.0.0
+  dartz: ^0.10.0-nullsafety.2
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  fonts:
+    - family: PokeGoTypes
+      fonts:
+        - asset: lib/fonts/PokeGOTypes.ttf 
+    - family: Pokemon
+      fonts:
+        - asset: lib/fonts/pokemon.ttf
+uses-material-design: true
